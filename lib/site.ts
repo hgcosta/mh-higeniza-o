@@ -1,6 +1,6 @@
 export const contato = {
-  telefone: "(00) 00000-0000",
-  whatsapp: "5500000000000", // trocar pelo número real (DDI+DDD+número)
+  telefone: "(81) 98628-6675",
+  whatsapp: "5581986286675",
   email: "contato@mhestofados.com.br",
   instagram: "mhestofados",
   horario: "Seg a sáb, 8h–18h",
