@@ -2,7 +2,7 @@ export const contato = {
   telefone: "(81) 98628-6675",
   whatsapp: "5581986286675",
   email: "contato@mhestofados.com.br",
-  instagram: "mhestofados",
+  instagram: "mh_higienizacaoo",
   horario: "Seg a sáb, 8h–18h",
 };
 
