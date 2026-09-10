@@ -1,5 +1,6 @@
 import AntesDepois from "@/components/AntesDepois";
 import BotaoWhatsApp from "@/components/BotaoWhatsApp";
+import CtaOrcamento from "@/components/CtaOrcamento";
 import Depoimentos from "@/components/Depoimentos";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <Servicos mostrarPrecos />
+        <CtaOrcamento />
         <AntesDepois />
         <Depoimentos />
         <Processo />

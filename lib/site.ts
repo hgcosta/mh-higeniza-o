@@ -9,6 +9,13 @@ export const contato = {
 export const whatsappUrl = `https://wa.me/${contato.whatsapp}`;
 export const instagramUrl = `https://instagram.com/${contato.instagram}`;
 
+export const navLinks = [
+  { href: "#servicos", rotulo: "Serviços" },
+  { href: "#antesdepois", rotulo: "Antes & Depois" },
+  { href: "#depoimentos", rotulo: "Depoimentos" },
+  { href: "#processo", rotulo: "Como funciona" },
+];
+
 export type Servico = {
   id: string;
   titulo: string;
