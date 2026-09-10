@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { instagramUrl, navLinks, whatsappUrl } from "@/lib/site";
+import { instagramUrl, navLinks, whatsappOrcamentoUrl, whatsappUrl } from "@/lib/site";
 import { InstagramIcon, WhatsAppIcon } from "./Icons";
 
 export default function Header() {
@@ -54,9 +54,15 @@ export default function Header() {
               <InstagramIcon color="#8CCBF2" />
             </a>
           </div>
-          <Link href="#orcamento" className="btn btn-primario btn-sm" onClick={fechar}>
+          <a
+            href={whatsappOrcamentoUrl}
+            target="_blank"
+            rel="noopener"
+            className="btn btn-primario btn-sm"
+            onClick={fechar}
+          >
             Pedir orçamento
-          </Link>
+          </a>
         </nav>
       </div>
       </header>

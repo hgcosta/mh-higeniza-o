@@ -9,6 +9,9 @@ export const contato = {
 export const whatsappUrl = `https://wa.me/${contato.whatsapp}`;
 export const instagramUrl = `https://instagram.com/${contato.instagram}`;
 
+export const mensagemOrcamento = "Olá, gostaria de solicitar um orçamento.";
+export const whatsappOrcamentoUrl = `${whatsappUrl}?text=${encodeURIComponent(mensagemOrcamento)}`;
+
 export const navLinks = [
   { href: "#servicos", rotulo: "Serviços" },
   { href: "#antesdepois", rotulo: "Antes & Depois" },

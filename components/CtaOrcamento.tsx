@@ -1,9 +1,11 @@
-import Link from "next/link";
+import { whatsappOrcamentoUrl } from "@/lib/site";
 
 export default function CtaOrcamento() {
   return (
     <div className="faixa-cta">
-      <Link href="#orcamento" className="btn btn-primario">Solicitar orçamento</Link>
+      <a href={whatsappOrcamentoUrl} target="_blank" rel="noopener" className="btn btn-primario">
+        Solicitar orçamento
+      </a>
     </div>
   );
 }

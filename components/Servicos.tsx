@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import { servicos } from "@/lib/site";
+import { servicos, whatsappOrcamentoUrl } from "@/lib/site";
 
 export default function Servicos({ mostrarPrecos = true }: { mostrarPrecos?: boolean }) {
   return (
@@ -45,7 +44,9 @@ export default function Servicos({ mostrarPrecos = true }: { mostrarPrecos?: boo
               Película invisível que repele líquidos e facilita a limpeza do dia a dia. Proteção de até 3 anos.
             </p>
           </div>
-          <Link href="#orcamento" className="btn btn-primario btn-sm">Consultar valor</Link>
+          <a href={whatsappOrcamentoUrl} target="_blank" rel="noopener" className="btn btn-primario btn-sm">
+            Consultar valor
+          </a>
         </article>
       </div>
     </section>

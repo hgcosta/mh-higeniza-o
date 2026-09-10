@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useRef, useState } from "react";
+import { whatsappOrcamentoUrl } from "@/lib/site";
 
 const metricas = [
   { valor: "+1.200", rotulo: "Estofados limpos" },
@@ -35,7 +36,9 @@ export default function Hero() {
             tapetes e bancos automotivos.
           </p>
           <div className="hero-acoes">
-            <Link href="#orcamento" className="btn btn-primario">Solicitar orçamento</Link>
+            <a href={whatsappOrcamentoUrl} target="_blank" rel="noopener" className="btn btn-primario">
+              Solicitar orçamento
+            </a>
             <Link href="#antesdepois" className="btn btn-fantasma">Ver resultados</Link>
           </div>
           <div className="metricas">
